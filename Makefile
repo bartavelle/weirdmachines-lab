@@ -1,6 +1,6 @@
 
 interpreter: interpreter.c
-	$(CC) -Wall -O0 -Wall -o interpreter interpreter.c
+	$(CC) -Wall -O -Wall -o interpreter interpreter.c
 
 clean:
 	rm -f interpreter
